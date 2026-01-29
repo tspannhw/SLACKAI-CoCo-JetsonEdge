@@ -1,0 +1,10 @@
+# Snowflake dependencies (Streamlit in Snowflake)
+# These are pre-installed in SiS environment
+snowflake-snowpark-python>=1.11.0
+pandas>=2.0.0
+
+# Note: streamlit is NOT required in requirements.txt for Streamlit in Snowflake
+# The SiS environment provides it automatically
+
+# Optional: For local development only (not needed in SiS)
+# streamlit>=1.28.0

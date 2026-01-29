@@ -1,0 +1,10 @@
+# Environment configuration for Streamlit in Snowflake
+# This file is used by SiS to configure the Python environment
+
+[tool.streamlit]
+name = "Jetson Edge Monitor"
+
+[snowflake]
+warehouse = "INGEST"
+database = "DEMO"
+schema = "DEMO"
